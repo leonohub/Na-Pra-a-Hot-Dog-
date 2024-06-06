@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(imagens/background-image.jpeg);
+    font-family: 'Kanit';
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+#horario{
+    height: 5vh;
+    background-color: #B30606;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#horario-funcionamento{
+    margin-left: 30px;
+    color: white;
+    font-size: large;    
+}
+
+#cabecalho{
+    height: 10vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    
+}
+
+
+
+.hiper{
+    color: #FFCC00;
+    font-size: large;
+    margin-left: 30px;
+}
+
+#logo{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+    
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+#foto1{
+    width:100vw;
+}
+
+
+
+
+
+/* --------------------------------------------- */
+
+#div-combos-pai{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+#combos{
+
+    font-size: 40px;    
+    color: #B30606;
+    font-family: Verdana;
+    margin: 35px;
+
+}
+
+#div-combos-filho{
+
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.divs-combos{
+    background-color: #B30606;
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+    margin-left: 35px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+.combos-titulos{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    color: #FFCC00;
+    font-size: 30px;
+}
+
+.items{
+
+    color: white;
+    font-size: 25px; 
+
+}
+
+/* ----------------------------- */
+
+
+
+
+#sobremesas{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#sobremesa-titulo{
+    font-size: 40px;    
+    color: #B30606;
+    font-family: Verdana;
+    margin: 35px;
+}
+
+
+
+#sobremesas-filho{
+    display: flex;
+    flex-direction: row;
+}
+
+.milks{
+    height: 300px;
+    width: 300px;
+    margin-left: 35px;
+
+}
+
+.milk-shake{
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+#experimente1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#experimente2{
+    font-size: 30px;    
+    color: #B30606;
+    font-family: Verdana;
+    margin-left: 20px;
+
+}
+
+/* ------------------------------------------------------- */
+
+
+#sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+#sobre-filho{
+    display: flex;
+    flex-direction: row;
+}
+
+#div-paragrafos{
+    width: 400px;
+}
+
+
+#sobre-titulo{
+    font-size: 40px;    
+    color: #B30606;
+    font-family: Verdana;
+     
+}
+
+.paragrafos{
+    margin-top: 15px;
+}
+
+#img-sobre{
+    margin-top: 70px;
+    margin-left: 80px;
+    width: 500px;
+    height: 500px;
+}
+
+
+/* ------------------------------- */
+
+#roda-pe-filho{
+    height: 10vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    
+}
+
+#logo-pe{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+}
+
+
+
+#barra-final{
+    height: 25vh;
+    background-color: #B30606;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.infos-finais{
+    color: white;
+    text-align: center;
+}
+
+
+#infos-finais-cima{
+    color: #ffda45;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+/* ------------LOCALIZAÇÃO---------------- */
+
+#loc{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    
+
+}
+
+.infos-loc{
+    color: #B30606;
+}
+
+#foto-loc{
+    width: 500px;
+    height: 380px;
+    border-radius: 3%;
+}
